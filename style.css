@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif  !important;
+    color: #fff;
+    font-weight: 500;
+}
+.parent {
+    background-image: url(https://olafawzi21.github.io/ComingSoon/imgs/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+.row header {
+    font-size: 60px;
+    letter-spacing: 10px ;
+    font-weight: 900;
+    
+}
+.row p {
+    max-width: 550px;
+}
+
+.time-content .time {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 6px;
+}
+.time .number, .time .text {
+    font-weight: 500;
+}
+.time .number {
+    font-size: 40px;
+}
+.time .text {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.email-content p {
+    font-size: 13px;
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    max-width: 360px;
+    width: 100%;
+    margin-top: 20px;
+    column-gap: 20px;
+}
+.input-box input {
+    width: 100%;
+    color: #fff;
+}
+.input-box button {
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+.input-box button:hover{
+    color:darkcyan;
+    background-color: #fff;
+}
+.input-box input, .input-box button {
+    padding: 8px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
